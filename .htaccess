@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule v1/endpoint static/endpoint.xml
+RewriteRule titles/show redirect.php
+RewriteRule communities communities.php
+RewriteRule view_animation view_animation.php
+RewriteRule post_animation post_animation.php
+RewriteRule post_animationframe post_animationframe.php
